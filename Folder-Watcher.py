@@ -11,7 +11,7 @@ email_recipient = 'bernard@vesy.ch'
 smtp_server = 'pandora.kreativmedia.ch'
 smtp_port = 587 #465
 smtp_username = 'bernard@vesy.ch'
-smtp_password = 'Koala71-71'
+smtp_password = 'Koala72-72'
 
 # Configurer le logging
 logging.basicConfig(level=logging.INFO,

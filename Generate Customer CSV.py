@@ -31,7 +31,7 @@ def generate_clients_csv(filename, num_rows=20000):
             telephone = fake_locale.phone_number()
             adresse = fake_locale.street_address()
             ville = fake_locale.city()
-            pays = 'Suisse'
+            pays = 'Switzerland'
             
             # Écrire la ligne dans le fichier CSV
             writer.writerow([i, prenom, nom, email, telephone, adresse, ville, pays])
